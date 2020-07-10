@@ -11,8 +11,6 @@ This is a template repository to create test-ware for evaluating puppeteer test 
 ## Prerequisites
 
 1. Node.js LTS
-2. puppeteer
-3. test framework (in this project: jest and jest-puppeteer)
 
 ## Framework used
 
