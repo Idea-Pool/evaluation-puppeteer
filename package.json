@@ -1,10 +1,10 @@
 {
-  "name": "evaluation-template",
+  "name": "evaluation-puppeteer",
   "version": "0.0.1",
   "description": "This is a template repository to create test-ware for evaluating certain (JS) test automation tools.",
   "main": "-",
   "scripts": {
-    "test": "echo \"No tests defined\" && exit 1",
+    "test": "jest",
     "lint": "eslint tests --fix"
   },
   "repository": {
@@ -26,7 +26,10 @@
   "homepage": "https://github.com/szikszail/evaluation-template#readme",
   "dependencies": {
     "eslint": "^6.8.0",
-    "husky": "^4.0.10"
+    "husky": "^4.0.10",
+    "jest": "^26.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.0.0"
   },
   "husky": {
     "precommit": "npm run lint"
